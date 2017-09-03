@@ -11,15 +11,6 @@ def max_sum (A, index, sum, max):
     else:
         return max_sum(A, index+1, sum+A[index], max)
 
-def prefix (A, start, end, sum, max):
-    left = prefix(A, start+1, math.floor(len(A)/2), sum + A[start], max)
-    right = prefix(A, len(A)/2 + 1, end, sum + math.floor(A[len(A)/2] + 1), max)
-    if left[0] > right[0] + left[1]:
-        return
-    else:
-        return right[0] + left[1]
-
-
 
 def main():
     A = [6, 4, -2, 3, -5, 1]
