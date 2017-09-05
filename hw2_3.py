@@ -13,7 +13,7 @@ def max_sum (A, index, sum, max):
 
 
 def prefix (A, start, end):
-    #Note: the prefix of a list is either the prefix of its first half, or the sum of its first half plus the prefix of its left half
+    # Note: the prefix of a list is either the prefix of its first half, or the sum of its first half plus the prefix of its left half
     # Input: A, a list of integers; start, the starting index; end, the ending index;
         # sum, a running total of the sum of A's elements; max, the max prefix sum of A
     # Output: The largest prefix sum in A and the sum of the whole list
