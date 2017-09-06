@@ -1,6 +1,6 @@
 //Author: Jessica Smith
 //Johnson Trotter Source: http://introcs.cs.princeton.edu/java/23recursion/JohnsonTrotter.java.html
-//Where I learned the method I used: https://www.youtube.com/watch?v=UCle3Smvh1s
+//For two isomorphic graphs A_1 and A_2, the matrix P mapping A_1 to A_2 satisfies A_1 = P * A_2 * P^T
 //Warning: runs in O(n!). Do not use for large inputs. 
 
 package unl.cse.graphs;
