@@ -1,2 +1,2 @@
 # Algorithms
-A collection of programs in Python and Java for algorithms and discrete mathematics. 
+A collection of programs in Python and Java for algorithms, data structures, and discrete mathematics classes. 
