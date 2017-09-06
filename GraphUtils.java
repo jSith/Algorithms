@@ -1,6 +1,7 @@
 //Author: Jessica Smith
 //Johnson Trotter Source: http://introcs.cs.princeton.edu/java/23recursion/JohnsonTrotter.java.html
 //Where I learned the method I used: https://www.youtube.com/watch?v=UCle3Smvh1s
+//Warning: runs in O(n!). Do not use for large inputs. 
 
 package unl.cse.graphs;
 
