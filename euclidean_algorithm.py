@@ -22,8 +22,6 @@ def euclidean_algorithm (a, b):
 def linear_combination(d, a, b):
 
     combo = 0
-    x = -10
-    y = 1
 
     while combo != d:
         y = random.randint(-100, 100)
